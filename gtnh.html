@@ -4,8 +4,10 @@
         <title>CS 347 Project 1 - GregTech Minecraft Modpack Info</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/gallery.css">
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link rel="icon" href="favicon.ico" type="image/x-icon">
+        
     </head>
     <body>
         <header>
@@ -46,7 +48,44 @@
                 <p>Want to become a master mage? GregTech New Horizons also features magical themed mods such as Thaumcraft, Witchery, and Blood Magic. However, magical progression will build off the various tiers of technology, as well as exploration through the mysterious Twilight Forest dimension.</p>
                 <p>What is the goal of all this? Well, after much upgrading of your factory's infrastructure, and the (hopefully automatic) collection of millions of raw materials, you can craft the famed Stargate, an item once thought to be impossible to obtain. However, Russian player Houstonruss proved in Spring 2021 that it is, indeed, possible, by crafting the first two Stargates of any GregTech New Horizons player, and thus completing the objective, all via his factory, known as the "Big-Flex Gigaplex".</p>
             </div>
+            <div class="modpack-gallery">
+                <h3>Screenshots</h3>
+                <div class="slideshow-container">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="myslides fade">
+                      <div class="numbertext">1 / 3</div>
+                      <img src="https://cdn.discordapp.com/attachments/777653235359416330/823916934352732220/2021-03-22_23.34.05.png" alt="Early-Game Base" style="width:100%">
+                      <div class="text">Early-Game Base, Courtesy of Bean Bagel on Discord</div>
+                    </div>
+                  
+                    <div class="myslides fade">
+                      <div class="numbertext">2 / 3</div>
+                      <img src="https://cdn.discordapp.com/attachments/777653235359416330/796363421041557556/unknown.png" alt="Cleanroom" style="width:100%">
+                      <div class="text">Cleanroom for Circuits, Courtesy of gordominossi on Discord</div>
+                    </div>
+                  
+                    <div class="myslides fade">
+                      <div class="numbertext">3 / 3</div>
+                      <img src="https://cdn.discordapp.com/attachments/777653235359416330/796566621514367076/2021-01-01_18.21.46.png" alt="Factory" style="width:100%">
+                      <div class="text">A Well-Built Factory, Courtesy of Melkutus on Discord</div>
+                    </div>
+                  
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <br>
+                  
+                  <!-- The dots/circles -->
+                  <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                  </div>
+            </div>
         </main>
         <footer>&copy; Jarod Reichel 2021</footer>
+        <script src="js/gallery.js"></script>
     </body>
 </html>
