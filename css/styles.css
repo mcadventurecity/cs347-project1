@@ -50,14 +50,17 @@ footer {
     }
     .modpack-info {
         width: 33.3%;
+        padding: 10px;
         float: left;
     }
     .modpack-desc {
         width: 33.4%;
+        padding: 10px;
         float: left;
     }
     .modpack-gallery {
         width: 33.3%;
+        padding: 10px;
         float: left;
     }
 }
