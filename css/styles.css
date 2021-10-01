@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Raleway&display=swap');
 
+* {
+    box-sizing: border-box;
+  }
 body {
     font-family: 'Raleway', Helvetica, sans-serif;
     display: flex;
@@ -37,11 +40,26 @@ footer {
     margin-top: auto;
     
 }
+.infobox {
+    background-color: #e68a00;
+    padding: 10px;
+}
 @media (min-width: 768px) {
     .navitem {
         display: inline;
     }
-
+    .modpack-info {
+        width: 33.3%;
+        float: left;
+    }
+    .modpack-desc {
+        width: 33.4%;
+        float: left;
+    }
+    .modpack-gallery {
+        width: 33.3%;
+        float: left;
+    }
 }
 h1, h2, h3,h4 {
     font-family: 'Orbitron', Verdana, sans-serif;
